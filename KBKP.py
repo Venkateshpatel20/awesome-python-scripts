@@ -2,17 +2,21 @@
 # Step 1: Define the lists
 questions = [
     "What is the capital of France?",
-    "Which language is used for web development?",
-    "What is 2 + 2?"
+    "Which language is used for web development?"
+    ,"Who developed python?",
+    "What is 2 + 2?",
+    "Which language you is fastest of following in?"
 ]
 
 options = [
     ["A. Berlin", "B. Madrid", "C. Paris", "D. Rome"],
     ["A. Python", "B. Java", "C. HTML", "D. C++"],
-    ["A. 3", "B. 4", "C. 5", "D. 6"]
+    ["A. Guide Van Rossume","B. Matz Mastumoto","C. Dennis Ritchie","D. James Gosling"],
+    ["A. 3", "B. 4", "C. 5", "D. 6"],
+    ["A. C","B.CPP","C. JAVA","D.JAVASCRIPT"]
 ]
 
-correct_answers = ["C", "C", "B"]  # Correct answer keys
+correct_answers = ["C", "C", "A", "B", "A"]  # Correct answer keys
 user_answers = []  # List to store user responses
 
 # Step 2: Loop through the questions
