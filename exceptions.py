@@ -1,24 +1,24 @@
-# a = input("enter a number:")
-# print(f"MUltiplication table for {a} is")
-# try:
+a = input("enter a number:")
+print(f"MUltiplication table for {a} is")
+try:
 
-#     for i in range(1,11):
-#         print(f"{a} X {i} = : {int(a)*i}")
-# except Exception as e:
-#     print("invalid input")
-# finally:
-#     print("after try block")
-# #handling a specific error
-# try:
-#     num : int(input("Enter a number:"))
-# except ValueError:
-#     print("Number entered is not an integer")
+    for i in range(1,11):
+        print(f"{a} X {i} = : {int(a)*i}")
+except Exception as e:
+    print("invalid input")
+finally:
+    print("after try block")
+#handling a specific error
+try:
+    num : int(input("Enter a number:"))
+except ValueError:
+    print("Number entered is not an integer")
 list = []
-# try :
-#     num = int(input("enter a index number:"))
-#     print(list[num])
-# except IndexError :
-#     print(f"there is no index {num}")
+try :
+    num = int(input("enter a index number:"))
+    print(list[num])
+except IndexError :
+    print(f"there is no index {num}")
 
 
 def func():
@@ -39,5 +39,6 @@ c = func()
 print(c)
 
 # func()
+
 
 
