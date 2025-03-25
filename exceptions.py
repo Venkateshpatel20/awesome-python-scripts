@@ -36,9 +36,12 @@ def func():
     finally:
         print("hello")
 c = func()
-print(c)
+# print(c)
 
-# func()
-
+# raising error using raise keyword
+a = int(input("enter a value between 8 and 18 :"))
+if (a<8 or a>18):
+    raise ValueError("value should be between 8 and 18")
+print("after exception")
 
 
