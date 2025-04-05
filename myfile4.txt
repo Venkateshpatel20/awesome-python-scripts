@@ -1,0 +1,4 @@
+writing a text in to file4	This is second lineAdding another line1 in myfile4.txt
+Adding another line2 in myfile4.txt
+Adding another line3 in myfile4.txt
+Adding another line4 in myfile4.txt
